@@ -111,7 +111,7 @@
 ## Step-6: Notification Microservice - Create Virtual Node & Virtual Service
 - **Virtual Node:**
     - Virtual Node Name:notification-vnode
-    - Service Discovery Method: DNS
+    - Service Discovery Method: DNS (You can also AWS Cloud Map and provide the NameSpace as - microservices.local and Service Name as - notification-service)
     - DNS Hostname: notification-service.stacksimplify-dev.com
     - Backend: Nothing
     - Health Status: Nothing
