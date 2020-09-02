@@ -143,7 +143,7 @@
 ## Step-9: IAM Changes - Provide access for ecsTaskExecutionRole
 - **Role Name:** ecsTaskExecutionRole
 - Navigate to IAM and update this role by attaching below listed policy
-    - **Policy Name:** AWSXRayDaemonWriteAccess
+    - **Policy Name:** AWSXRayDaemonWriteAccess, CloudWatchFullAccess, AWSAppMeshEnvoyAccess, AmazonECSTaskExecutionRolePolicy
 
 ## Step-10: Task Definition Update: Notification Microservice to Enable AppMesh & X-Ray
 - **X-Ray Container**
